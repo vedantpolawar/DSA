@@ -6,7 +6,6 @@ void merge(int arr[], int low, int mid, int high) {
     int left = low;
     int right = mid + 1;
     int idx = 0;
-
     // Merge the two sorted halves
     while (left <= mid && right <= high) {
         if (arr[left] <= arr[right]) {
@@ -15,17 +14,59 @@ void merge(int arr[], int low, int mid, int high) {
             temp[idx++] = arr[right++];
         }
     }
-
     // Copy remaining elements from left half (if any)
     while (left <= mid) {
         temp[idx++] = arr[left++];
-    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    }
     // Copy remaining elements from right half (if any)
     while (right <= high) {
         temp[idx++] = arr[right++];
     }
-
     // Copy back to original array
     for (int i = 0; i < idx; i++) {
         arr[low + i] = temp[i];

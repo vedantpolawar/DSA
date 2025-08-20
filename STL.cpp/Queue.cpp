@@ -7,7 +7,6 @@ int main(){
   q.push(1);//{1}
   q.push(2);//{1,2}
   q.emplace(3);//{1,2,4};
- 
   q.back()+=5;//jaise stack mai top waise queue mai back hota.
   cout<<q.back();//prints 9
   //0 is {1,2,9}

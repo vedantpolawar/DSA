@@ -1,0 +1,1 @@
+storing and fetching takes (logN) where n iss number of element in map

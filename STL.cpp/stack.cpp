@@ -18,3 +18,11 @@ int main(){
   return 0;
 }
 //only this much operations are allowed so if stack is there it's timecomplexity is O(1);
+
+// A stack is a container adaptor that follows the LIFO (Last In, First Out) principle.
+
+// You push elements to the top.
+
+// You pop elements from the top.
+
+// You cannot access elements in the middle directly.

@@ -30,6 +30,7 @@ int main() {
 
     cout<<mpp[1];
     cout<<mpp[5];//o ro null as it does not exist it is key
+    //⚠️ Important: If key 5 does not exist, map creates a new entry {5, 0} automatically.
     // auto it =mpp1.find(5);
     // cout<<*(it).second;
     auto it=mpp.find(3);

@@ -31,3 +31,4 @@ int main(){
 }
 // firdt imr loop runs for n times  then n-1 and then n-2 and n-3 
 // n+m-1+n-1+n-3+......+1=n(n-1)/2; O(n(n-1)/2) == O(n^2)
+// goo see --https://youtu.be/xWBP4lzkoyM?si=DfsFjzpnm-gWDJEk

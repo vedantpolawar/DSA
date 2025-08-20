@@ -22,3 +22,4 @@ int main(){
 }
 // for i=0 no loop runs for i=0 loop run 1,lly it goes 1,2,3,4,...,n -- n(n+1)/2 O(n^2) in worst case and average case ;
 //in best case time complexity is O(n) as only i wala loop chalega
+// for visua;isation --- https://youtu.be/OGzPmgsI-pQ?si=BDlEMF55hbOMnApX
